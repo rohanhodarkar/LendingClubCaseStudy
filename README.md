@@ -1,52 +1,39 @@
 # Project Name
-> Outline a brief description of your project.
+> Lending club case study to identify loan defaulters
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Technologies Used](#technologies-used)
+* [Contact](#Contact)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The project aims at analyzing the historical loan dataset and extract actionable insights
+- Dataset consists of all loan applications and its servicing related information from a leading lending company.
+- The lending company intends to flag applicants which are more probale to be a defaulters before the loan is approved for them by using the historical information on the defaulters and their characteristics.
+- Dataset contains the complete loan data for all loans issued through the time period 2007 t0 2011.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- As the annual income increases the charged off proportion decreases. Lower income group applicants are more likely to be defaulters.
+- For higher loan amoount i.e. 15000+ there are high chances of charge off.
+- Chances of charged off increases from "A" towards "G"
+- Charge off increases with increase in interest rate. Higher interest rate loans are more likely to charging off.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.9.13
+- Pandas - version 1.4.4
+- Seaborn - version 0.11.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@rohanhodarkar] - feel free to contact me!
